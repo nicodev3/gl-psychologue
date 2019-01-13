@@ -347,7 +347,15 @@ module.exports = {
   |
   */
 
-  textColors: colors,
+  textColors: {
+    'black': colors['black'],
+    'grey-darker': colors['grey-darker'],
+    'grey-dark': colors['grey-dark'],
+    'red-dark': colors['red-dark'],
+    'red': colors['red'],
+    'blue-dark': colors['blue-dark'],
+    'blue': colors['blue'],
+  },
 
 
   /*
