@@ -1,12 +1,18 @@
 {{ define "main" }}
-
 <div class="container mx-auto">
-    <h1 class="text-5xl">Psychologue à Bailleul</h1>
+    <main>
+        <header>
+            <h1 class="text-5xl">Psychologue à Bailleul</h1>
+            <p class="leading-normal mb-4">&Agrave; la suite d'un cheminement personnel, au cours de différents moments de sa vie, lorsqu'on ressent des difficultés ou que l'on est dans une situation de crise, rencontrer un psychologue peut venir en aide aux enfants, adolescents, adultes et couples.</p>
 
-    <h3>Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!</h3>
+            <p class="leading-normal mb-4">On consulte un psychologue dans de multiples situations : pour un mal-être donc les causes sont parfois clairement identifiées, d'autres fois plus floues. La plupart du temps, un accompagnement psychologique de soutien à court terme peut aider à débloquer la situation. Cet accompagnement permet de retrouver un équilibre personnel et/ou familial.</p>
 
-    <a href="{{ "/tech" | relURL }}">Check out the tech</a>
+            <p class="leading-normal mb-4">Parfois, un travail thérapeutique plus long est envisagé. Parler d'un vécu traumatique, autour d'une maladie, de comportements entravant la vie quotidienne et/ou les relations avec les autres, permet, dans la relation avec le thérapeute, de mobiliser ses ressources propres afin d'avancer dans son développement personnel, dans sa relation à l'autre, et à mieux vivre sa vie dans les changements inévitables qu'elle comporte.</p>
+
+            <p class="leading-normal mb-4">Ce site présente mon travail de psychologue au cabinet de Bailleul.</p>
+        </header>
+    </main>
+
+    {{ .Content }}
 </div>
-
-
 {{ end }}
