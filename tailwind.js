@@ -220,14 +220,6 @@ module.exports = {
       'Georgia',
       'serif',
     ],
-    'mono': [
-      'Menlo',
-      'Monaco',
-      'Consolas',
-      'Liberation Mono',
-      'Courier New',
-      'monospace',
-    ],
   },
 
 
@@ -850,6 +842,7 @@ module.exports = {
 
   svgFill: {
     'current': 'currentColor',
+    'purple': colors['purple'],
   },
 
 
@@ -870,6 +863,7 @@ module.exports = {
 
   svgStroke: {
     'current': 'currentColor',
+    'purple': colors['purple'],
   },
 
 
@@ -909,7 +903,7 @@ module.exports = {
     display: ['responsive'],
     flexbox: ['responsive'],
     float: false,
-    fonts: ['responsive'],
+    fonts: false,
     fontWeights: ['responsive', 'hover', 'focus'],
     height: ['responsive'],
     leading: ['responsive'],

@@ -60,3 +60,18 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+html {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.hero {
+    background: url('/img/hero.jpg') no-repeat 0 0 / cover;
+}
